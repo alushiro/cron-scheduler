@@ -1,0 +1,22 @@
+{
+  "cron": [
+    {
+      "endpoint": "http://localhost:3000/status",
+      "cronExpression": "*/1 * * * *",
+      "description": "first Job",
+      "flagActive" : true
+    },
+    {
+      "endpoint": "http://localhost:3000/status",
+      "cronExpression": "*/2 * * * *",
+      "description": "2nd Job",
+      "flagActive" : true
+    },
+    {
+      "endpoint": "http://localhost:3000/status",
+      "cronExpression": "*/2 * * * *",
+      "description": "3rd Job",
+      "flagActive" : false
+    }
+  ]
+}
